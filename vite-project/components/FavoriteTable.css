@@ -1,0 +1,21 @@
+.fav-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+.fav-table th,
+.fav-table td {
+  border: 1px solid #e2e8f0;
+  padding: 0.6rem;
+  text-align: left;
+}
+
+.fav-table th {
+  background: #e2e8f0;
+}
+
+.actions button {
+  margin-right: 0.3rem;
+  margin-bottom: 0.3rem;
+}

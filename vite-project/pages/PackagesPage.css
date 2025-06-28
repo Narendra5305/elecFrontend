@@ -1,0 +1,16 @@
+.packages-page h2 {
+  margin-bottom: 1rem;
+}
+
+.chosen {
+  margin-bottom: 0.5rem;
+}
+
+.fav-form textarea {
+  width: 100%;
+  border: 1px solid #cbd5e1;
+  border-radius: 4px;
+  padding: 0.5rem 0.75rem;
+  resize: vertical;
+  margin-bottom: 0.5rem;
+}

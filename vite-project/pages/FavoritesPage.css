@@ -1,0 +1,12 @@
+.favs-page h2 {
+  margin-bottom: 1rem;
+}
+
+.empty-state {
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.empty-state p {
+  margin-bottom: 1rem;
+}
