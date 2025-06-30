@@ -1,5 +1,11 @@
-.packages-page h2 {
+.packages-page h5 {
   margin-bottom: 1rem;
+  font-size: 16px;
+  color: rgb(111, 111, 111);
+}
+
+.packages-page{
+    margin-top: 50px;
 }
 
 .chosen {
@@ -7,8 +13,9 @@
 }
 
 .fav-form textarea {
+    margin-top: 100px;
   width: 100%;
-  border: 1px solid #cbd5e1;
+  border: 2px solid #cbd5e1;
   border-radius: 4px;
   padding: 0.5rem 0.75rem;
   resize: vertical;

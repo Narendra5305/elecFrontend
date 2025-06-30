@@ -23,7 +23,7 @@ export default function PackagesPage() {
 
   return (
     <div className="packages-page">
-      <h2>Add a favourite NPM package</h2>
+      <h5>Search for NPM package</h5>
 
      
       <PackageSearch onSelect={setSelected} />
@@ -42,7 +42,7 @@ export default function PackagesPage() {
           onChange={(e) => setReason(e.target.value)}
         />
         <button type="submit" disabled={!selected || !reason.trim()}>
-          Save fav
+          Submit
         </button>
       </form>
     </div>

@@ -6,11 +6,11 @@ export default function Modal({ open, onClose, onConfirm }) {
   return (
     <div className="modal-backdrop" onClick={onClose}>
       <div className="modal" onClick={(e) => e.stopPropagation()}>
-        <p>Are you sure you want to delete this fav?</p>
+        <p>Are you sure you want to delete?</p>
         <div className="modal-actions">
-          <button onClick={onConfirm}>Yes</button>
+          <button className='first' onClick={onConfirm}>Yes</button>
           <button className="secondary" onClick={onClose}>
-            No
+            Cancel
           </button>
         </div>
       </div>

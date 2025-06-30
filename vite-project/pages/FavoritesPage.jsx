@@ -22,7 +22,7 @@ export default function FavoritesPage() {
 
   return (
     <div className="favs-page">
-      <h2>Your favourite packages</h2>
+      <h3>Welcome to Favourite NPM Packages</h3>
       <FavoriteTable favs={favs} setFavs={setFavs} />
     </div>
   );

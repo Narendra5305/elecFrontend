@@ -36,7 +36,7 @@ export default function FavoriteTable({ favs, setFavs }) {
       <table className="fav-table">
         <thead>
           <tr>
-            <th>Package</th>
+            <th>Package Name</th>
             <th style={{ width: '160px' }}>Actions</th>
           </tr>
         </thead>
@@ -45,10 +45,10 @@ export default function FavoriteTable({ favs, setFavs }) {
             <tr key={f.id}>
               <td>{f.package}</td>
               <td className="actions">
-                <button onClick={() => handleView(f.id)}>See detail</button>
-                <button onClick={() => handleEdit(f.id)}>Edit</button>
-                <button className="danger" onClick={() => setToDelete(f.id)}>
-                  Delete
+                <button onClick={() => handleView(f.id)}> <img src="https://www.svgrepo.com/show/522528/eye.svg" alt="detail-img-btn"  className='detail-img-btn'/> </button>
+                <button onClick={() => handleEdit(f.id)}> <img src="https://www.svgrepo.com/show/532988/pen-line.svg" alt="edit-img-btn" className='edit-img-btn' />  </button>
+                <button  onClick={() => setToDelete(f.id)}>
+                  <img  src="https://www.svgrepo.com/show/502614/delete.svg" alt="delete-logo" className='delete-img-btn'/>
                 </button>
               </td>
             </tr>

@@ -1,21 +1,48 @@
 .fav-table {
-  width: 100%;
   border-collapse: collapse;
   margin-top: 1rem;
+  width: 960px;
+  max-width: 100%;
 }
+
 
 .fav-table th,
 .fav-table td {
-  border: 1px solid #e2e8f0;
+  border: 3px solid #e2e8f0;
   padding: 0.6rem;
   text-align: left;
 }
 
 .fav-table th {
-  background: #e2e8f0;
+  background: #ffffff;
 }
 
 .actions button {
   margin-right: 0.3rem;
   margin-bottom: 0.3rem;
+  background-color: transparent;
 }
+
+tbody >tr td:nth-child(1){
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+.edit-img-btn , .detail-img-btn{
+    background-color: transparent;
+    height: 25px;
+}
+
+.fav-table td:first-child {
+  width: 40%;
+}
+
+.fav-table td:last-child {
+  width: 50%;
+}
+
+.delete-img-btn{
+    height: 25px;
+}
+

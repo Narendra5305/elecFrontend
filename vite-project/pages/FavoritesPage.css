@@ -1,5 +1,7 @@
-.favs-page h2 {
+.favs-page h3 {
+    margin-top: 20px;
   margin-bottom: 1rem;
+  font-weight: 500;
 }
 
 .empty-state {
@@ -9,4 +11,8 @@
 
 .empty-state p {
   margin-bottom: 1rem;
+}
+
+.favs-page{
+    width: 100%;
 }
